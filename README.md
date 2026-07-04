@@ -16,7 +16,7 @@ This project demonstrates how Natural Language Processing (NLP) can be used to b
 - Build an intent-based chatbot
 - Implement intent recognition using Machine Learning
 - Create an interactive Streamlit interface
-- Maintain conversation history
+
 
 ---
 
