@@ -56,7 +56,7 @@ A **custom intent-based JSON dataset** created specifically for this project.
 
 ### Dataset Details
 
-- Total Intents: **30**
+- Total Intents: **30-45**
 - Training Patterns: **150+**
 - Response Templates: **60+**
 

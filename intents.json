@@ -166,8 +166,8 @@
         "How to crack interview?"
       ],
       "responses": [
-        "Practice DSA, core subjects, communication skills, and mock interviews.",
-        "Review your projects thoroughly and be ready to explain them confidently."
+        "Practice DSA, core subjects, communication skills, and mock interviews. And  also Review your projects thoroughly and be ready to explain them confidently.",
+        "Review your projects thoroughly and be ready to explain them confidently, And also practice common interview questions and problem-solving exercises."
       ]
     }
 
@@ -185,6 +185,92 @@
   "responses": [
     "Start with HTML, CSS, JavaScript, then learn React, Node.js, Express, and databases like MongoDB or MySQL.",
     "Build responsive websites and full-stack projects to strengthen your portfolio."
+  ]
+},
+
+{
+  "tag": "skills_to_build",
+  "patterns": [
+    "What skills should I build?",
+    "Which skills are important for my career?",
+    "Skills to build",
+    "Tell me the skills I need",
+    "How can I improve my skills?",
+    "What technical skills should I learn?",
+    "What are the most important skills for students?",
+    "How do I prepare for my future career?",
+    "What skills should I focus on?",
+    "What should I learn to get a good job?",
+    "Essential skills for software engineers",
+    "Skills required for AI",
+    "Skills required for Data Science",
+    "What skills do employers look for?",
+    "What are the top IT skills?",
+    "Guide me about career skills",
+    "Which programming language should I learn?",
+    "How can I become job ready?",
+    "How can I improve my employability?",
+    "Tell me more about career skills"
+  ],
+  "responses": [
+    "To build a successful career in technology, focus on Python, Data Structures & Algorithms, SQL, Git & GitHub, problem-solving, communication skills, and real-world projects.",
+    "Employers value both technical and soft skills. Learn programming, teamwork, communication, critical thinking, time management, and continuously improve through projects.",
+    "For AI and Data Science careers, learn Python, Mathematics, Statistics, Machine Learning, Deep Learning, SQL, and visualization libraries like Matplotlib and Pandas.",
+    "A strong portfolio with projects, internships, certifications, and GitHub contributions will significantly improve your career opportunities.",
+    "Focus on learning one skill at a time, practice consistently, and apply your knowledge by building real-world projects."
+  ]
+},
+
+{
+  "tag": "more_information",
+  "patterns": [
+    "Tell me more",
+    "Can you explain more?",
+    "More information",
+    "Explain further",
+    "Give me more details",
+    "Can you elaborate?",
+    "What else?",
+    "Anything more?",
+    "Continue",
+    "Go on",
+    "More please",
+    "Tell me more about it",
+    "Can you provide more details?",
+    "Explain in detail",
+    "I want to know more"
+  ],
+  "responses": [
+    "Continuous learning is the key to career growth. Build projects, contribute to GitHub, participate in hackathons, complete internships, and practice coding regularly.",
+    "Besides technical skills, develop communication, teamwork, leadership, adaptability, and problem-solving skills. These are highly valued by employers.",
+    "Create a professional resume, maintain an active GitHub profile, earn relevant certifications, and prepare for technical interviews to improve your job prospects.",
+    "Stay updated with industry trends by reading blogs, taking online courses, and building practical applications using the latest technologies."
+  ]
+},
+{
+  "tag": "acknowledgement",
+  "patterns": [
+    "OK",
+    "Okay",
+    "Okay thanks",
+    "Thanks",
+    "Thank you",
+    "Great",
+    "Nice",
+    "Cool",
+    "Alright",
+    "Understood",
+    "Got it",
+    "Sounds good",
+    "That's helpful",
+    "Appreciate it",
+    "Thank you so much"
+  ],
+  "responses": [
+    "You're welcome! 😊 Feel free to ask about careers, skills, interviews, certifications, or internships.",
+    "Happy to help! If you have more questions about your career, just ask.",
+    "Glad I could help! Keep learning and building projects. Best of luck with your career journey!",
+    "You're always welcome! I'm here to guide you with career planning and technical skills."
   ]
 },
 
