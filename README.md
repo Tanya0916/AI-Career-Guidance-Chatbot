@@ -20,7 +20,7 @@ This project demonstrates how Natural Language Processing (NLP) can be used to b
 
 ---
 
-## ✨ Features
+##  Features
 
 -  Intent Recognition
 -  Dynamic Responses
@@ -38,7 +38,7 @@ This project demonstrates how Natural Language Processing (NLP) can be used to b
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python
 - Streamlit
@@ -110,7 +110,7 @@ The trained model is saved as:
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 Clone the repository
 
@@ -142,7 +142,7 @@ streamlit run app.py
  python train_model.py
  ```
 
-## 💬 Example Questions
+##  Example Questions
 
 - Hello
 - Career in AI
