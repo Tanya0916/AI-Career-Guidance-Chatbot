@@ -1,0 +1,508 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hey there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up",
+        "Is anyone there?",
+        "Hi bot"
+      ],
+      "responses": [
+        "Hello! Welcome to the AI Career Guidance Chatbot. How can I help you today?",
+        "Hi! Ask me anything about careers, skills, or interviews.",
+        "Hey! I'm here to help you with career guidance."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "Exit",
+        "Quit",
+        "I am leaving",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Best of luck with your career.",
+        "Take care and keep learning!",
+        "See you again. Have a wonderful day!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much",
+        "Much appreciated",
+        "Great thanks",
+        "That's helpful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Feel free to ask more questions."
+      ]
+    },
+
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "What can you do?",
+        "Who made you?"
+      ],
+      "responses": [
+        "I'm an AI Career Guidance Chatbot built using Python, NLTK, Scikit-learn, and Streamlit.",
+        "I can guide you about careers, skills, resumes, certifications, and interviews."
+      ]
+    },
+
+    {
+      "tag": "career_ai",
+      "patterns": [
+        "How can I become an AI engineer?",
+        "Career in AI",
+        "Artificial Intelligence roadmap",
+        "AI career",
+        "How do I start AI?",
+        "Guide me for AI",
+        "AI engineer skills",
+        "Become AI developer"
+      ],
+      "responses": [
+        "Learn Python, Mathematics, Machine Learning, Deep Learning, and build real-world projects.",
+        "Start with Python, Data Structures, ML, Deep Learning, and create a strong GitHub portfolio."
+      ]
+    },
+
+    {
+      "tag": "career_ml",
+      "patterns": [
+        "Machine Learning career",
+        "How to become Machine Learning Engineer?",
+        "ML roadmap",
+        "ML career",
+        "Machine learning guide",
+        "Skills for ML engineer"
+      ],
+      "responses": [
+        "Master Python, Statistics, Scikit-learn, TensorFlow, and build Machine Learning projects.",
+        "Practice supervised and unsupervised learning with real datasets."
+      ]
+    },
+
+    {
+      "tag": "career_ds",
+      "patterns": [
+        "Career in Data Science",
+        "Data Scientist roadmap",
+        "Become Data Scientist",
+        "Data Science skills",
+        "Guide for Data Science",
+        "How to learn Data Science?"
+      ],
+      "responses": [
+        "Focus on Python, SQL, Statistics, Machine Learning, Data Visualization, and Projects.",
+        "Build projects using Pandas, NumPy, Matplotlib, and Scikit-learn."
+      ]
+    },
+
+    {
+      "tag": "python",
+      "patterns": [
+        "Why learn Python?",
+        "Python for beginners",
+        "Is Python important?",
+        "Should I learn Python?",
+        "Python roadmap"
+      ],
+      "responses": [
+        "Python is one of the most popular programming languages for AI, Data Science, Web Development, and Automation.",
+        "Learning Python is a great first step toward a career in software or AI."
+      ]
+    },
+
+    {
+      "tag": "resume",
+      "patterns": [
+        "Resume tips",
+        "How do I make a resume?",
+        "CV tips",
+        "Build resume",
+        "Improve my resume",
+        "Resume guidance"
+      ],
+      "responses": [
+        "Keep your resume concise, highlight your projects, technical skills, internships, and certifications.",
+        "Use a one-page resume with measurable achievements whenever possible."
+      ]
+    },
+
+    {
+      "tag": "interview",
+      "patterns": [
+        "Interview tips",
+        "Prepare for interview",
+        "Technical interview",
+        "HR interview",
+        "Interview preparation",
+        "How to crack interview?"
+      ],
+      "responses": [
+        "Practice DSA, core subjects, communication skills, and mock interviews.",
+        "Review your projects thoroughly and be ready to explain them confidently."
+      ]
+    }
+
+    ,
+{
+  "tag": "web_development",
+  "patterns": [
+    "How do I become a web developer?",
+    "Web development roadmap",
+    "Frontend or backend?",
+    "Career in web development",
+    "Skills for web developer",
+    "Learn web development"
+  ],
+  "responses": [
+    "Start with HTML, CSS, JavaScript, then learn React, Node.js, Express, and databases like MongoDB or MySQL.",
+    "Build responsive websites and full-stack projects to strengthen your portfolio."
+  ]
+},
+
+{
+  "tag": "android_development",
+  "patterns": [
+    "Career in Android development",
+    "Android roadmap",
+    "Become Android developer",
+    "Learn Android",
+    "Android development skills"
+  ],
+  "responses": [
+    "Learn Java or Kotlin, Android Studio, Firebase, APIs, and publish your apps on Google Play.",
+    "Build real Android applications to gain practical experience."
+  ]
+},
+
+{
+  "tag": "cyber_security",
+  "patterns": [
+    "Career in Cyber Security",
+    "Cyber Security roadmap",
+    "Become ethical hacker",
+    "Cyber security skills",
+    "Learn ethical hacking"
+  ],
+  "responses": [
+    "Start with networking, Linux, operating systems, cybersecurity fundamentals, and ethical hacking tools.",
+    "Practice using TryHackMe, Hack The Box, and learn penetration testing."
+  ]
+},
+
+{
+  "tag": "cloud_computing",
+  "patterns": [
+    "Cloud Computing career",
+    "AWS roadmap",
+    "Azure roadmap",
+    "Cloud Engineer skills",
+    "Become Cloud Engineer"
+  ],
+  "responses": [
+    "Learn AWS or Azure, Linux, networking, Docker, Kubernetes, and CI/CD concepts.",
+    "Cloud computing offers excellent opportunities in modern software development."
+  ]
+},
+
+{
+  "tag": "devops",
+  "patterns": [
+    "DevOps roadmap",
+    "Career in DevOps",
+    "DevOps Engineer",
+    "Learn DevOps",
+    "Skills for DevOps"
+  ],
+  "responses": [
+    "Learn Git, Docker, Kubernetes, Jenkins, Linux, AWS, and CI/CD pipelines.",
+    "Automation and cloud skills are essential for DevOps engineers."
+  ]
+},
+
+{
+  "tag": "sql",
+  "patterns": [
+    "Should I learn SQL?",
+    "Importance of SQL",
+    "SQL roadmap",
+    "Database skills",
+    "Learn SQL"
+  ],
+  "responses": [
+    "SQL is one of the most important skills for Data Science, Software Development, and Backend Engineering.",
+    "Practice writing SELECT, JOIN, GROUP BY, and subqueries using real databases."
+  ]
+},
+
+{
+  "tag": "git",
+  "patterns": [
+    "What is Git?",
+    "Why GitHub?",
+    "Learn Git",
+    "Git commands",
+    "Importance of GitHub"
+  ],
+  "responses": [
+    "Git is a version control system used to track code changes, while GitHub hosts your repositories online.",
+    "Every developer should know Git basics like clone, commit, push, pull, and merge."
+  ]
+},
+
+{
+  "tag": "certifications",
+  "patterns": [
+    "Best certifications",
+    "Which certification should I do?",
+    "AI certifications",
+    "Data Science certification",
+    "Cloud certification"
+  ],
+  "responses": [
+    "Popular certifications include AWS Cloud Practitioner, Google Data Analytics, Microsoft Azure Fundamentals, and IBM Data Science.",
+    "Choose certifications that align with your career goals and practical skills."
+  ]
+},
+
+{
+  "tag": "internships",
+  "patterns": [
+    "How can I get an internship?",
+    "Internship tips",
+    "Find internship",
+    "Internship preparation",
+    "Apply for internship"
+  ],
+  "responses": [
+    "Build projects, create a strong GitHub profile, improve your resume, and apply regularly on LinkedIn, Internshala, and company career pages.",
+    "Consistency and practical projects significantly improve internship opportunities."
+  ]
+},
+
+{
+  "tag": "higher_studies",
+  "patterns": [
+    "Should I do Masters?",
+    "Higher studies after BTech",
+    "MS or Job?",
+    "MTech or Job",
+    "Study abroad guidance"
+  ],
+  "responses": [
+    "Choose higher studies if you want specialization or research; otherwise, gaining industry experience is also a great option.",
+    "Evaluate your career goals, finances, and interests before making a decision."
+  ]
+}
+,
+{
+  "tag": "software_engineer",
+  "patterns": [
+    "How do I become a software engineer?",
+    "Software engineering roadmap",
+    "Career in software engineering",
+    "Software developer skills",
+    "Become software engineer",
+    "Software engineering guide"
+  ],
+  "responses": [
+    "Learn a programming language like Python, Java, or C++, master Data Structures & Algorithms, databases, Git, and build real-world projects.",
+    "Strong problem-solving skills and practical experience are essential for becoming a software engineer."
+  ]
+},
+
+{
+  "tag": "full_stack",
+  "patterns": [
+    "Become full stack developer",
+    "Full stack roadmap",
+    "Full stack career",
+    "Learn MERN stack",
+    "Full stack developer skills"
+  ],
+  "responses": [
+    "Learn HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, Git, and deployment platforms.",
+    "Build complete web applications to showcase your full-stack development skills."
+  ]
+},
+
+{
+  "tag": "data_analyst",
+  "patterns": [
+    "Career in Data Analytics",
+    "Become Data Analyst",
+    "Data Analyst roadmap",
+    "Skills for Data Analyst",
+    "Learn Data Analytics"
+  ],
+  "responses": [
+    "Focus on Excel, SQL, Python, Power BI, Tableau, statistics, and data visualization.",
+    "Practice analyzing real-world datasets and building dashboards."
+  ]
+},
+
+{
+  "tag": "uiux",
+  "patterns": [
+    "Career in UI UX",
+    "Become UI designer",
+    "Learn UX design",
+    "UI UX roadmap",
+    "Design career"
+  ],
+  "responses": [
+    "Learn Figma, Adobe XD, design principles, wireframing, prototyping, and user research.",
+    "Create a strong design portfolio to demonstrate your creativity and skills."
+  ]
+},
+
+{
+  "tag": "communication",
+  "patterns": [
+    "Improve communication skills",
+    "Communication tips",
+    "How to speak confidently?",
+    "English speaking",
+    "Presentation skills"
+  ],
+  "responses": [
+    "Practice speaking daily, read books, participate in discussions, and improve your vocabulary.",
+    "Confidence comes from regular practice and effective communication."
+  ]
+},
+
+{
+  "tag": "time_management",
+  "patterns": [
+    "Time management tips",
+    "How to manage study time?",
+    "Improve productivity",
+    "Study schedule",
+    "Manage my time"
+  ],
+  "responses": [
+    "Use a daily planner, prioritize important tasks, avoid distractions, and follow a consistent routine.",
+    "Break large goals into smaller tasks and review your progress regularly."
+  ]
+},
+
+{
+  "tag": "aptitude",
+  "patterns": [
+    "How to prepare aptitude?",
+    "Aptitude preparation",
+    "Quantitative aptitude",
+    "Reasoning preparation",
+    "Placement aptitude"
+  ],
+  "responses": [
+    "Practice quantitative aptitude, logical reasoning, and verbal ability daily using mock tests.",
+    "Regular practice improves both speed and accuracy."
+  ]
+},
+
+{
+  "tag": "salary",
+  "patterns": [
+    "Salary of AI Engineer",
+    "Software engineer salary",
+    "Highest paying IT jobs",
+    "Data Scientist salary",
+    "Average developer salary"
+  ],
+  "responses": [
+    "Salaries vary depending on experience, location, and company. AI Engineers, Data Scientists, Cloud Engineers, and Software Engineers are among the highest-paid technology roles.",
+    "Focus on developing strong technical skills first; higher salaries follow with experience."
+  ]
+},
+
+{
+  "tag": "motivation",
+  "patterns": [
+    "I feel demotivated",
+    "Motivate me",
+    "I am confused",
+    "I don't know what to do",
+    "Need motivation"
+  ],
+  "responses": [
+    "Everyone starts somewhere. Keep learning consistently, build projects, and your hard work will pay off.",
+    "Small daily improvements lead to big achievements. Stay consistent and believe in yourself."
+  ]
+},
+{
+  "tag": "career_suggestion",
+  "patterns": [
+    "What career should I pursue?",
+    "Which career is best for me?",
+    "What should I pursue for my career?",
+    "What career would be best for my future?",
+    "Help me choose a career",
+    "Can you suggest a career?",
+    "I am confused about my career",
+    "Which field should I choose?",
+    "What is the best career option?",
+    "Which technology should I learn?",
+    "What should I study for my future?",
+    "How do I decide my career?",
+    "What career fits me?",
+    "Guide me for my future career",
+    "Career advice",
+    "Suggest a career path",
+    "I don't know which career to choose",
+    "Which career has good scope?",
+    "Which IT career should I choose?",
+    "What profession is right for me?"
+  ],
+  "responses": [
+    "The best career depends on your interests and strengths. If you enjoy programming and problem-solving, AI, Data Science, Software Development, and Cyber Security are excellent options.",
+    "There isn't one perfect career for everyone. Explore your interests, build skills, and work on projects before making a decision.",
+    "If you like mathematics and programming, consider AI, Machine Learning, or Data Science. If you enjoy designing websites and applications, Full Stack Web Development is a great choice.",
+    "Careers with strong future demand include Artificial Intelligence, Data Science, Cyber Security, Cloud Computing, DevOps, and Software Engineering.",
+    "Choose a career that matches your interests rather than only following salary trends. Continuous learning and practical experience are key to long-term success."
+  ]
+},
+
+{
+  "tag": "fallback",
+  "patterns": [
+    "random text",
+    "unknown question",
+    "something else"
+  ],
+  "responses": [
+    "I'm sorry, I don't understand that yet. Please ask me about careers, interviews, skills, certifications, or resume guidance.",
+    "Could you rephrase your question? I'll do my best to help."
+  ]
+}
+
+]
+}
