@@ -118,31 +118,29 @@ Clone the repository
 git clone https://github.com/yourusername/AI-Career-Guidance-Chatbot.git
 ```
 
-Move into the project
+Navigate to the project folder
 
 ```bash
 cd AI-Career-Guidance-Chatbot
 ```
 
-Install dependencies
+Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Train the chatbot
-
-```bash
-python train_model.py
-```
-
-Run the application
+Run the chatbot
 
 ```bash
 streamlit run app.py
 ```
 
----
+ **Note:** The trained model (`model.pkl`) and vectorizer (`vectorizer.pkl`) are already included in the repository, so retraining is **not required**. If you modify `intents.json`, you can retrain the model using:
+
+```bash
+ python train_model.py
+ ```
 
 ## 💬 Example Questions
 
