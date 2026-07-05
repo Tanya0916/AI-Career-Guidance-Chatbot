@@ -7,35 +7,33 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
-# Download required resources
+
 nltk.download("stopwords")
 nltk.download("wordnet")
 
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words("english"))
 
-# -----------------------------
-# Load Model
-# -----------------------------
+
+# Load the Model
+
 with open("model.pkl", "rb") as file:
     model = pickle.load(file)
 
-# -----------------------------
+
 # Load Vectorizer
-# -----------------------------
+
 with open("vectorizer.pkl", "rb") as file:
     vectorizer = pickle.load(file)
 
-# -----------------------------
+
 # Load Intents
-# -----------------------------
+
 with open("intents.json", "r", encoding="utf-8") as file:
     intents = json.load(file)
 
 
-# -----------------------------
-# Text Preprocessing
-# -----------------------------
+
 def preprocess(text):
 
     text = text.lower()
@@ -61,9 +59,7 @@ def preprocess(text):
     return " ".join(processed)
 
 
-# -----------------------------
-# Greeting Detection
-# -----------------------------
+
 greetings = [
     "hi",
     "hello",
@@ -85,9 +81,7 @@ greeting_responses = [
 ]
 
 
-# -----------------------------
-# Thanks Detection
-# -----------------------------
+
 thanks_words = [
     "thanks",
     "thank you",
@@ -102,9 +96,6 @@ thanks_responses = [
 ]
 
 
-# -----------------------------
-# Goodbye Detection
-# -----------------------------
 bye_words = [
     "bye",
     "goodbye",
@@ -120,26 +111,23 @@ bye_responses = [
 ]
 
 
-# -----------------------------
-# Main Chat Function
-# -----------------------------
+# main function to get response from the chatbot
 def get_response(user_input):
 
     user = user_input.lower().strip()
 
-    # Greeting
+   
     if user in greetings:
         return random.choice(greeting_responses)
 
-    # Thanks
     if user in thanks_words:
         return random.choice(thanks_responses)
 
-    # Goodbye
+   
     if user in bye_words:
         return random.choice(bye_responses)
 
-    # NLP Processing
+    
     processed = preprocess(user)
 
     vector = vectorizer.transform([processed])
@@ -158,7 +146,7 @@ def get_response(user_input):
     # Lower confidence threshold
     if probability < 0.15:
         return (
-            "❌ Sorry, I couldn't understand your question.\n\n"
+            " Sorry, I couldn't understand your question.\n\n"
             "You can ask me about:\n\n"
             "• AI Career\n"
             "• Machine Learning\n"

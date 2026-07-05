@@ -61,7 +61,6 @@ for intent in data["intents"]:
 
 print(f"Training Samples : {len(sentences)}")
 
-# Convert text into vectors
 vectorizer = CountVectorizer()
 
 X = vectorizer.fit_transform(sentences)
@@ -71,7 +70,7 @@ model = LogisticRegression(max_iter=1000)
 
 model.fit(X, labels)
 
-# Save trained model
+# Save  model
 with open("model.pkl", "wb") as file:
     pickle.dump(model, file)
 

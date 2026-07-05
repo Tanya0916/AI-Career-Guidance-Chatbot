@@ -1,18 +1,18 @@
 import streamlit as st
 from chatbot import get_response
 
-# -----------------------------
-# Page Configuration
-# -----------------------------
+
+
+
 st.set_page_config(
     page_title="AI Career Guidance Chatbot",
     page_icon="🤖",
     layout="centered"
 )
 
-# -----------------------------
+
 # Custom CSS
-# -----------------------------
+
 st.markdown("""
 <style>
 
@@ -56,9 +56,7 @@ h1{
 </style>
 """, unsafe_allow_html=True)
 
-# -----------------------------
-# Sidebar
-# -----------------------------
+
 st.sidebar.title("🤖 AI Career Bot")
 
 st.sidebar.info(
@@ -93,24 +91,18 @@ Built using:
 """
 )
 
-# -----------------------------
-# Session State
-# -----------------------------
+
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# -----------------------------
-# Title
-# -----------------------------
+
 st.title("🤖 AI Career Guidance Chatbot")
 
 st.write(
 "Ask me anything about careers, resume building, interviews, skills, or certifications!"
 )
 
-# -----------------------------
-# Display Previous Messages
-# -----------------------------
+
 for message in st.session_state.messages:
 
     if message["role"] == "user":
@@ -135,14 +127,13 @@ for message in st.session_state.messages:
             unsafe_allow_html=True
         )
 
-# -----------------------------
 # User Input
-# -----------------------------
+
 user_input = st.chat_input("Type your message...")
 
 if user_input:
 
-    # Store User Message
+    # Stores it
     st.session_state.messages.append(
         {
             "role":"user",
@@ -163,18 +154,14 @@ if user_input:
 
     st.rerun()
 
-# -----------------------------
-# Clear Chat
-# -----------------------------
+
 if st.sidebar.button("🗑 Clear Chat"):
 
     st.session_state.messages = []
 
     st.rerun()
 
-# -----------------------------
-# Footer
-# -----------------------------
+
 st.markdown(
 """
 <div class="footer">
